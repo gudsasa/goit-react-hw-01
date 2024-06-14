@@ -1,0 +1,24 @@
+.table {
+    margin: 0 auto;
+    width: 565px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+th {
+    border: solid 2px black;
+    color: white;
+    font-weight: 400;
+    background-color: rgb(75, 75, 75);
+}
+tr:nth-child(even) {
+    background: silver;
+}
+td {
+    text-transform: capitalize;
+    border: solid 2px black;
+    width: 187px;
+    height: 30px;
+}

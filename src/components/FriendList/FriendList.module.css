@@ -1,0 +1,27 @@
+.list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 565px;
+    border-radius: 10px;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 102px;
+    height: 172px;
+}
+.online {
+    font-weight: 600;
+    color: rgb(14, 173, 0);
+}
+.offline {
+    font-weight: 600;
+    color: rgb(240, 9, 9);
+}
