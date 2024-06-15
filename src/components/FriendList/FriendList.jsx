@@ -10,11 +10,8 @@ const FriendList = ({ friends }) => {
             avatar={item.avatar}
             name={item.name}
             isOnline={
-              item.isOnline ? (
-                <p className={css.online}>Online</p>
-              ) : (
-                <p className={css.offline}>Offline</p>
-              )
+              ((<p className={css.online}>Online</p>),
+              (<p className={css.offline}>Offline</p>))
             }
           />
         </li>
