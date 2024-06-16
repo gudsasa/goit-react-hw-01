@@ -1,8 +1,10 @@
 body {
-    font-family: sans-serif;
-    line-height: 1.5;
-}
-
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fafafa;
+  color: #2a2a2a;
+} /* Reset styles */
 h1,
 h2,
 h3,
@@ -10,19 +12,38 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 
-ul,
-ol {
-    margin: 0;
-    padding: 0;
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-li {
-    list-style-type: none;
+
+address {
+  font-style: normal;
+}
+input,
+textarea {
+  outline: none;
 }

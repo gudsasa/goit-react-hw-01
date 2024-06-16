@@ -1,24 +1,27 @@
+.table,
+.tableRow,
+.tableCel {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 500px;
+}
 .table {
-    margin: 0 auto;
-    width: 565px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: solid 2px black;
-    border-collapse: collapse;
+  border: 1px inset black;
 }
-th {
-    border: solid 2px black;
-    color: white;
-    font-weight: 400;
-    background-color: rgb(75, 75, 75);
+.tableRow {
+  border: 1px solid black;
 }
-tr:nth-child(even) {
-    background: silver;
+.tableRow.isHead {
+  background-color: black;
+  color: white;
 }
-td {
-    text-transform: capitalize;
-    border: solid 2px black;
-    width: 187px;
-    height: 30px;
+.tableCel {
+  width: 150px;
+  text-align: center;
+}
+.tableCel:not(:last-child) {
+  border-right: 1px solid black;
+}
+.tableRow:nth-child(even) {
+  background-color: #ccc;
 }
